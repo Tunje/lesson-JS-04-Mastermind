@@ -1,0 +1,85 @@
+
+
+.fonts{
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    &_alt{
+        font-family: "Poppins", sans-serif;
+        }
+    &_tiny{
+        font-size: 16px;
+        line-height: 20px;
+        }
+    &_mini{
+        font-size: 16px;
+        line-height: 26px;
+        }
+    &_small{    
+        font-size: 18px;
+        line-height: 23px;
+        }
+    &_avrage{    
+        font-size: 22px;
+        line-height: 28px;
+        }
+    &_more{
+        font-size: 40px;
+        line-height: 55px;
+        }
+    &_big{    
+        font-size: 40px;
+        line-height: 60px;
+        }
+    &_swift{
+        font-size: 28px;
+        line-height: 38px;
+        }
+    &_soup{
+        font-size: 22px;
+        line-height: 33px;
+        }
+    &_giga{    
+        font-size: 90px;
+        line-height: 102px;
+        }
+    &_boldE{
+        font-weight: 500;
+        }
+    &_bold{
+        font-weight: bold;
+        }
+    &_Norm{
+        font-weight: normal;
+        }
+    &_blue{
+        color: #0011ff;
+        }
+    &_black{
+        color: #000000;
+        }
+    &_gray{
+        color: #7a7a7a;
+        }
+    &_it{
+        font-style: italic;
+        }
+    &_shade{
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        }
+    &_trans{
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        }
+    &_shift{
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        }
+    &_inv{
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        }
+    }
+.deco{
+    text-decoration: none;
+}
