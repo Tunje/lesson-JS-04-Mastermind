@@ -3,17 +3,85 @@
 <head>
     <meta name="viewpott" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
 <title>Enter tag here</title>
 </head>
-    <body>
-        <header>
-        </header>
-        <main>
-            <section>
-            </section>
-            <section>
-            </section>
-        </main>
-    <script src="script/main.js"></script>
-    </body>
+        <body class="MaxWH flex flex_col">
+            <div class="top"></div>
+            <header class="nav flex flex_j_SB MaxWH location">
+                <div class="navbox MaxWH location"></div>
+                <div class="navbox MaxWH location flex flex_j_SB">
+                    <button onclick="start()">start</button>
+                    <button onclick="submit()">submit</button>
+                    <button onclick="reset()">clear</button>
+                </div>
+            </header>   
+            <main class="board MaxWH location">
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <div class="computer boardcircle MaxWH white location"></div>
+                    <img src="images/questionmark.png" class="computer disepear" alt="black circle with questionmark">
+                    <div class="computer boardcircle MaxWH white location"></div>
+                    <img src="images/questionmark.png" class="computer disepear" alt="black circle with questionmark">
+                    <div class="computer boardcircle MaxWH white location"></div>
+                    <img src="images/questionmark.png" class="computer disepear" alt="black circle with questionmark">
+                    <div class="computer boardcircle MaxWH white location"></div>
+                    <img src="images/questionmark.png" class="computer disepear" alt="black circle with questionmark">
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location active" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location active" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location active" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location active" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+                <div class="boardsegment MaxWH flex flex_j_SA location">
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                    <button class="boardcircle MaxWH white location disepear" onclick="colorswap(this)"></button>
+                </div>
+            </main>
+        <script src="script/main.js"></script>
+        </body>
 </html>

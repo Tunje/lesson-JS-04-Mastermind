@@ -1,0 +1,29 @@
+
+
+
+
+.board{
+    max-width: 700px;
+    min-height: 1000px;
+}
+.boardsegment{
+    max-width: 700px;
+    min-height: 75px;
+    background-color: burlywood;
+}
+.boardcircle{
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 50px;
+    border-style: none;
+}
+.boardright{
+    border-style: solid;
+    border-color: rgb(5, 202, 5);
+    border-width: 3px;
+}
+.boardclose{
+    border-style: solid;
+    border-color: rgb(220, 158, 0);
+    border-width: 3px;
+}
